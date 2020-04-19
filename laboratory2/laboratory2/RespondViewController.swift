@@ -17,7 +17,7 @@ class RespondViewController: UIViewController {
         super.viewDidLoad()
         self.textField.delegate = self
         self.textField.valueType = .onlyLetters
-        self.textField.maxLength = 8
+        self.textField.maxLength = 9
     }
 
     @IBAction func onTouch(_ sender: UIButton) {

@@ -1,5 +1,5 @@
 //
-//  ConversorViewController.swift
+//  TempartureConversorViewController.swift
 //  laboratory2
 //
 //  Created by Benjamin on 17/04/2020.
@@ -10,7 +10,6 @@ import Foundation
 import UIKit
 
 class TemperatureConversorViewController: UIViewController {
-    
     @IBOutlet weak var celsius: parsedTextField!
     @IBOutlet weak var fahrenheit: UILabel!
     var null: String?
